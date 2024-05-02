@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!-- Logo atau gambar aplikasi -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="333dp"
+            android:layout_height="422dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/border"
+            android:src="@drawable/app_logo" />
+
+        <!-- Text selamat datang -->
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di Aplikasi Saya"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/logoImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <!-- Button Start -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_below="@id/welcomeTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
