@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TugasUTSPemrogramanMobile"
         tools:targetApi="31">
         <activity
+            android:name=".news_portal"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
