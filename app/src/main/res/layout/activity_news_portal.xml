@@ -8,5 +8,12 @@
     tools:context=".news_portal">
 
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:text="
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac eros mauris. Nulla facilisi. Quisque porta mi ac ante sagittis, vitae vehicula felis luctus. Vestibulum eget arcu sed nisi tempus fermentum. Nullam sollicitudin massa ut ligula scelerisque, id consequat turpis vulputate. Mauris tempus justo a nunc aliquet tincidunt. Integer tristique lacus ut ex pulvinar, at consectetur risus suscipit. Suspendisse sit amet mi et sapien eleifend facilisis. Cras aliquam, ligula ut consequat pellentesque, nunc lorem posuere eros, vitae ullamcorper eros mauris eget mi. Sed pretium nisi vitae turpis consequat dignissim. Phasellus mattis felis nec odio scelerisque dignissim. Sed consectetur mi non orci gravida, sit amet congue turpis commodo. Integer vitae sapien non ipsum tristique molestie. Vivamus sit amet erat sit amet purus consequat lobortis. Donec eget felis non eros convallis commodo."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="76dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

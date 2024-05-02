@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Login extends AppCompatActivity {
     private TextView register;
+    private Button login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,14 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login2);
 
          register = findViewById(R.id.RegisterText);
+         login = findViewById(R.id.loginButton);
+         login.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent = new Intent(Login.this, news_portal.class);
+                 startActivity(intent);
+             }
+         });
          register.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
