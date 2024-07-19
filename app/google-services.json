@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "922100203711",
+    "project_id": "mobileuas-934b3",
+    "storage_bucket": "mobileuas-934b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922100203711:android:e1f6a5bf82bfdecd8d860a",
+        "android_client_info": {
+          "package_name": "id.pemrogramanmobile.tugasutspemrogramanmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922100203711-2eniob9rf4d71hgoomtrsi05oiv3lt86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.pemrogramanmobile.tugasutspemrogramanmobile",
+            "certificate_hash": "748a8b82bdcb3852424957ce43def3e00eec9f2d"
+          }
+        },
+        {
+          "client_id": "922100203711-jh2nr4ns5usoj7m8trvjtqdu2b8gh6hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxYfSTd3fuIcz86eEL7g7WO-y3Hp-HKag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922100203711-jh2nr4ns5usoj7m8trvjtqdu2b8gh6hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

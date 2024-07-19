@@ -10,4 +10,5 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="action_login">Masukkan username</string>
+    <string name="default_web_client_id">922100203711-jh2nr4ns5usoj7m8trvjtqdu2b8gh6hd.apps.googleusercontent.com</string>
 </resources>
