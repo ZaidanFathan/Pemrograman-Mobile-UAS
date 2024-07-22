@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity {
                             Log.d(TAG, "signinWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(Login.this, "Authentication Successful", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Login.this, CreateData.class);
+                            Intent intent = new Intent(Login.this, news_portal.class);
                             startActivity(intent);
                             finish();
                         }else{

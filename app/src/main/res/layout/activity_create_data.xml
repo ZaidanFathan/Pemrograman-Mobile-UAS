@@ -24,19 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Masukan Deskripsi"/>
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_margin="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#E0E0E0"
-            android:contentDescription="Gambar yang dipilih"/>
-        <Button
-            android:id="@+id/btnChooseImage"
-            android:layout_margin="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Pilih Gambar"/>
+
+
         <Button
             android:id="@+id/btnAdd"
             android:layout_margin="10dp"
